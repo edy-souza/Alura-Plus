@@ -28,6 +28,34 @@ body{
     padding-left: 35px;
 }
 
+.secundario {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 498px;
+    height: 560px;
+    flex-shrink: 0;
+}
+
+.descricao__titulo {
+    font-family: var(--font-principal);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.2em
+}
+
+.descricao__subtitulo {
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+
 .container {
     height: 100vh;
     display: grid;
