@@ -99,5 +99,16 @@ body{
     border: 2px solid var(--branco-principal);
 }
 
+.botao__terceario{
+    display: inline-block;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    width: 162.68px;
+    padding: 16px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
 
 
