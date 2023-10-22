@@ -110,5 +110,67 @@ body{
     text-decoration: none;
 }
 
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
 
+.dispositivos {
+    text-align: center;
+}
 
+.dispositivos__titulo {
+    font-size: 45px;
+    font-family: var(--font-principal);
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 25px;
+    font-family: var(--font-principal);
+    columns: var(--branco-principal);
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+
+footer {
+    margin-bottom: 90px;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.lista__link{
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-style: normal;
+    color: var(--branco-principal);
+    margin-right: 20px;
+    margin-top: 3em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul)  !important;
+}
+
+.rodape__lista .lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+  }
+  
+  .rodape__texto {
+    text-align: center;
+    font-size: 12px;
+    font-size: var(--font-principal);
+    color: var(--cinza-secundario);
+    margin-top: 2em;
+  }
