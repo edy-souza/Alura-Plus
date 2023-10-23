@@ -174,3 +174,16 @@ footer {
     color: var(--cinza-secundario);
     margin-top: 2em;
   }
+
+  /* Para telas menores que 768px (geralmente, telas de celular) */
+@media (max-width: 768px) {
+    /* Faça os ajustes de estilo aqui, como reorganizar elementos ou alterar tamanhos de fonte */
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+  
