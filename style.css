@@ -70,6 +70,8 @@ body{
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+    font-size: 24px;
+
 }
 
 .container__botao {
@@ -89,9 +91,11 @@ body{
 }
 
 .container__caixa {
-    width: 512px;
+    width: 78%;
+    max-width: 80%;
     height: 307px;
     flex-shrink: 0;
+
 }
 
 .botao_secundario {
@@ -177,13 +181,15 @@ footer {
 
   /* Para telas menores que 768px (geralmente, telas de celular) */
 @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     /* Faça os ajustes de estilo aqui, como reorganizar elementos ou alterar tamanhos de fonte */
 }
 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-}
 
 
   
