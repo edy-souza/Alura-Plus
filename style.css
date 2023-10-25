@@ -162,6 +162,7 @@ footer {
         
     }
     .background__imagem {
+        background-image: url(./assets/Background\ 1.jpg);
         background-repeat: no-repeat;
     }
     .container__imagem {
@@ -169,6 +170,8 @@ footer {
     }
     .container__caixa {
         margin: 2em 2em;
+        margin-top: 10em;
+
     }
     .container.secundario{
         display: block;
